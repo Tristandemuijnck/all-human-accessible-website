@@ -142,21 +142,21 @@
     .content{
         display: flex;
         flex-direction: column;
-        height: 90vh;
+        height: 100%;
         justify-items: center;
         overflow: auto;
     }
 
     .anchor{
         display: block;
-        height: 10vh;
-        margin-top: -10vh;
+        height: 15vh;
+        margin-top: -15vh;
         visibility: hidden;
     }
 
     #onderdelen{
         display: flex;
-        flex-direction: column;
+        flex-direction: column;  
     }
 
     .card-heading{
