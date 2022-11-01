@@ -67,7 +67,7 @@
 
     /* Content page */
     figcaption{
-        color: white;
+        color: #b9005f;
         font-size: 120%;
     }
     
@@ -76,7 +76,7 @@
         align-items: center;
         margin-left: 0.5em;
         border: 1px solid #B9005F;
-        background-color: #B9005F;
+        background-color: white;
         width: 12em;
         float: left;
         position: sticky;
@@ -85,22 +85,22 @@
         padding-left: 1.8em;
         padding-top: 1em;
         padding-bottom: 1em;
-        border-radius: 0.3em;
+        border-radius: 0.1em;
     }
 
     #primair-nav ol li{
         list-style: decimal;
-        color: white;
+        color: #B9005F;
         padding: 5px;
     }
 
     #primair-nav ol li a{
-        color: white;
+        color: #B9005F;
     }
 
     #primair-nav ol li a:hover {
-        color: #b9005f;
-        background: white;
+        color: white;
+        background: #b9005f;
         border-radius: 0.3em;
         padding: 0.1em 0.2em;
     }
@@ -108,7 +108,7 @@
     .switch-buttons{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         position: fixed;
         left: 0;
         top: 12vh;
@@ -117,7 +117,7 @@
         margin-left: 0.5em;
         padding-top: 0.3em;
         padding-bottom: 1em;
-        border-radius: 0.3em;
+        border-radius: 0.1em;
         font-size: 1em;
     }
 
@@ -159,13 +159,13 @@
     }
 
     .card-heading{
-        background: #B9005F;
+        background-color: white;
         padding: 0.7em 1em;
         width: 70vw;
         margin: 1em auto;
         /* border: 1px solid black; */
         border-radius: 0.3em;
-        color: white;
+        color: #B9005F;
     }
 
     .card-heading article h2{
@@ -201,12 +201,12 @@
         border: 1px solid white;
         border-radius: 0.3em;
         background: none;
-        color: white;
+        color: #b9005f;
     }
 
     .info-btn:hover {
-        color: #B9005F;
-        background: white;
+        color: white;
+        background: #B9005F;
         cursor: pointer;
     }
 
@@ -223,14 +223,14 @@
     }
 
     .article-uitleg{
-        border: solid 1px white;
-        border-radius: 0.3em;
+        border: solid 1px #b9005f;
+        border-radius: 0.1em;
         padding: 0.7em;
     }
 
     .article-tips{
-        border: solid 1px white;
-        border-radius: 0.3em;
+        border: solid 1px #b9005f;
+        border-radius: 0.1em;
         padding: 0.7em;
     }
 
@@ -252,6 +252,7 @@
         align-items: center;
         border-top: #B9005F solid 1px;
         margin-top: 3em;
+        background-color: white;
     }
 
     .contact-container{
@@ -272,13 +273,14 @@
     }
 
     .contact-text{
-        color: black;
+        color: #B9005F;
     }
 
     .footer-svg{
         width: 0.8em;
         height: 0.8em;
         margin-top: 3px;
+        fill: #B9005F;
     }
 
     .footer-svg-phone{
@@ -286,6 +288,7 @@
         margin-top: 0.3em;
         margin-right: 0.2em;
         margin-bottom: 0.4em;
+        fill: #B9005F;
     }
 
     .svg-container{

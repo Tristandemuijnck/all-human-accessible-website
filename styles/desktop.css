@@ -70,7 +70,8 @@
     /* Content page */
 
     figcaption{
-        color: white;
+        /* color: white; */
+        color: #b9005f;
         font-size: 120%;
     }
 
@@ -79,7 +80,8 @@
         align-items: center;
         margin-left: 2em;
         border: 1px solid #B9005F;
-        background-color: #B9005F;
+        /* background-color: #B9005F; */
+        background-color: white;
         width: 12em;
         float: left;
         position: sticky;
@@ -88,23 +90,27 @@
         padding-left: 2em;
         padding-top: 1em;
         padding-bottom: 1em;
-        border-radius: 0.3em;
+        border-radius: 0.1em;
         font-size: 1.2em;
     }
 
     #primair-nav ol li{
         list-style: decimal;
-        color: white;
+        /* color: white; */
+        color: #B9005F;
         padding: 5px;
     }
 
     #primair-nav ol li a{
-        color: white;
+        /* color: white; */
+        color: #B9005F;
     }
     
     #primair-nav ol li a:hover {
-        color: #b9005f;
-        background: white;
+        /* color: #b9005f;
+        background: white; */
+        color: white;
+        background: #b9005f;
         border-radius: 0.3em;
         padding: 0.1em 0.2em;
     }
@@ -112,7 +118,7 @@
     .switch-buttons{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         position: fixed;
         left: 0;
         top: 12vh;
@@ -121,7 +127,7 @@
         margin-left: 2em;
         padding-top: 0.3em;
         padding-bottom: 1em;
-        border-radius: 0.3em;
+        border-radius: 0.1em;
         font-size: 1.2em;
     }
 
@@ -130,7 +136,7 @@
         color: white;
         border: 1px solid #B9005F;
         padding: 10px 12px;
-        border-radius: 0.3em;
+        border-radius: 0.1em;
         font-size: 0.8em;
     }
 
@@ -163,13 +169,15 @@
     }
 
     .card-heading{
-        background: #B9005F;
+        /* background: #B9005F; */
+        background-color: white;
         padding: 0.7em 1em;
         width: 70vw;
         margin: 1.5em auto;
-        /* border: 1px solid black; */
+        /* border: 1px solid #B9005F; */
         border-radius: 0.3em;
-        color: white;
+        /* color: white; */
+        color: #B9005F;
     }
 
     .card-heading article h2{
@@ -203,16 +211,19 @@
         display: flex;
         margin-left: auto;
         padding: 2px 5px;
-        border: 1px solid white;
+        border: 1px solid #b9005f;
         border-radius: 0.3em;
         background: none;
-        color: white;
+        /* color: white; */
+        color: #b9005f;
         font-size: 1em
     }
 
     .info-btn:hover {
-        color: #B9005F;
-        background: white;
+        /* color: #B9005F;
+        background: white; */
+        color: white;
+        background: #B9005F;
         cursor: pointer;
     }
 
@@ -221,7 +232,7 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-around;
-        /* border: solid 1px white; */
+        /* border: solid 1px #B9005F; */
         border-radius: 0.3em;
         margin-top: 1em;
         padding: 0.7em;
@@ -233,16 +244,20 @@
     }
 
     .article-uitleg{
-        border: solid 1px white;
-        border-radius: 0.3em;
-        padding: 0.7em;
+        border: solid 1px #b9005f;
+        border-radius: 0.1em;
+        /* background-color: #B9005F;
+        color: white; */
+        padding: 0.8em;
         width: 50vw;
     }
 
     .article-tips{
-        border: solid 1px white;
-        border-radius: 0.3em;
-        padding: 0.7em;
+        border: solid 1px #b9005f;
+        border-radius: 0.1em;
+        /* background-color: #B9005F;
+        color: white; */
+        padding: 0.8em;
         width: 50vw;
     }
 
@@ -256,6 +271,7 @@
         align-items: center;
         border-top: #B9005F solid 1px;
         margin-top: 3em;
+        background-color: white;
     }
 
     .contact-container{
@@ -276,13 +292,15 @@
     }
 
     .contact-text{
-        color: black;
+        /* color: black; */
+        color: #B9005F;
     }
 
     .footer-svg{
         width: 0.8em;
         height: 0.8em;
         margin-top: 3px;
+        fill: #B9005F;
     }
 
     .footer-svg-phone{
@@ -290,6 +308,7 @@
         margin-top: 0.3em;
         margin-right: 0.2em;
         margin-bottom: 0.4em;
+        fill: #B9005F;
     }
 
     .svg-container{
