@@ -92,6 +92,7 @@
         padding-bottom: 1em;
         border-radius: 0.1em;
         font-size: 1.2em;
+        box-shadow: 0px 4px 10px -7px #000000, 0px 0px 3px 2px rgb(0 0 0 / 0%);
     }
 
     #primair-nav ol li{
@@ -128,7 +129,7 @@
         padding-top: 0.3em;
         padding-bottom: 1em;
         border-radius: 0.1em;
-        font-size: 1.2em;
+        font-size: 1.2em;       
     }
 
     .switch-btn{
@@ -138,6 +139,7 @@
         padding: 10px 12px;
         border-radius: 0.1em;
         font-size: 0.8em;
+        box-shadow: -1px 5px 5px -7px #000000, 0px 0px 3px 2px rgb(0 0 0 / 0%);
     }
 
     .switch-btn:hover{
@@ -178,6 +180,7 @@
         border-radius: 0.3em;
         /* color: white; */
         color: #B9005F;
+        box-shadow: -1px 5px 5px -7px #000000, 0px 0px 3px 2px rgb(0 0 0 / 0%);
     }
 
     .card-heading article h2{
