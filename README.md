@@ -58,7 +58,7 @@ function switchDisplay(id, buttonId){
 ```
 
 ## Live versie
-Voor een live versie van het project: http://tristanva.student.fdnd.nl/
+Voor een live versie van het project: http://tristanva3.student.fdnd.nl/
 
 ## Licentie
 
